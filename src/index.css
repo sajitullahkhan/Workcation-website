@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn{
+    @apply transition inline-block uppercase tracking-wider text-sm px-5 py-3 rounded-lg shadow-lg focus:ring focus:ring-offset-2
+  }
+  .btn-primary{
+    @apply font-semibold bg-fuchsia-600 text-white hover:bg-fuchsia-500 focus:ring-fuchsia-600 active:bg-fuchsia-800
+  }
+  .btn-secondary{
+    @apply font-bold bg-gray-300 text-gray-700 hover:bg-gray-200 focus:ring-gray-500 active:bg-gray-300
+  }
+  
+}
